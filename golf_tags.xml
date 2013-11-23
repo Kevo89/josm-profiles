@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|	JOSM Golf Course Template
+|	Created November 22, 2013
+|	OSM User: Kevo
+|=======================================	
+|	Combinations are based off of those found on the golf course page of the OSM wiki: 
+|		http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course
+-->
+<presets author="Kevin Farrugia (Kevo)" shortdescription="Golf Courses" description="Presets for use with golf courses" version="0.1" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+<group name="Golf Courses">
+	<!--Hole-->
+	<item name="Hole">
+		<label text="Golf Course Hole (Line)" />
+		<text key="name" text="Hole Number (e.g. 3)" />
+		<key key="golf" value="hole" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Green-->
+	<item name = "Green">
+		<label text="Green" />
+		<key key="golf" value="green" />
+		<key key="leisure" value="pitch" />
+		<key key="sport" value="golf" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Tee-->
+	<item name = "Tee">
+		<label text="Tee" />
+		<key key="golf" value="tee" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Pin-->
+	<item name = "Pin">
+		<label text="Pin" />
+		<key key="golf" value="hole" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Bunker-->
+	<item name = "Bunker">
+		<label text="Bunker" />
+		<key key="golf" value="bunker" />
+		<key key="natural" value="sand" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Fairway-->
+	<item name = "Fairway">
+		<label text="Fairway" />
+		<key key="golf" value="fairway" />
+		<key key="landuse" value="grass" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Rough-->
+	<item name = "Rough">
+		<label text="Rough" />
+		<key key="golf" value="rough" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Water Hazard-->
+	<item name = "Water Hazard">
+		<label text="Water Hazard" />
+		<key key="golf" value="water_hazard" />
+		<check key="water" text="Water" default="on" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+	<!--Lateral Water Hazard-->
+	<item name = "Lateral Water Hazard">
+		<label text="Lateral Water Hazard" />
+		<key key="golf" value="lateral_water_hazard" />
+		<check key="water" text="Water" default="on" />
+
+		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
+	</item>
+</group>
+</presets>

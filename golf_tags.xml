@@ -14,11 +14,7 @@
 		<label text="Golf Course Hole (Line)" />
 		<text key="name" text="Hole Number (e.g. 3)" />
 		<key key="golf" value="hole" />
-		<optional>
-                        <text key="par" text="Par (optional)" />
-                        <text key="yards_blue" text="Yards (Blue)" />
-                </optional>
-
+		
 		<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dgolf_course" />
 	</item>
 	<!--Green-->
